@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+}
+
+.card-body{
+    min-width: 600px;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.left {
+    width: 50%;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.right{
+    width: 50%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfume{
+    color:   hsl(228, 12%, 48%);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.heading{
+    font-size: 38px;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.card-description{
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.price-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.big{
+    font-size: 36px;
+    color: hsl(158, 36%, 37%);
+}
+
+.small{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+button{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 7px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button img{
+    padding-right: 7px;
+}
+
+.attribution{
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+
+    main{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-body{
+       min-width: auto;
+       width: 90%;
+       display: flex;
+       flex-direction: column;
+       border-radius: 10px;
+       
+    }
+    .left{
+        width: 100%;
+        height: 350px;
+        background-image: url(./images/image-product-mobile.jpg);
+        background-size: cover;
+        display: flex;
+        border-radius:  10px 10px 0 0; 
+    }
+
+    .right{
+        width: 100%;
+        padding: 25px;
+    }
+    .perfume{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 32px;
+    }
+    .card-description{
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.7;
+        margin: 10px 0 10px 0;
+    
+    }
+}
