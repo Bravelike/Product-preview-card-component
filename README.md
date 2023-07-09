@@ -9,3 +9,7 @@
 ### Mobile view
 
 ![](./my%20design/Screenshot%202023-07-09%20at%2013-37-18%20Frontend%20Mentor%20Product%20preview%20card%20component.png)
+
+## website link
+
+https://product-preview-card-component-rose-tau.vercel.app/
